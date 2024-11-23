@@ -1,0 +1,65 @@
+/*############################################ FUENTES ############################################*/
+@font-face{
+    font-family: "lato";
+    src:url("../fonts/Lato-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Lato-Light";
+    src:url("../fonts/Lato-Light.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Lato-Bold";
+    src:url("../fonts/Lato-Bold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*############################################ Footer ############################################*/
+.footerPie{
+    clear: both;
+    width: 1910px;
+    height: 324px;
+    padding-top: 50px;
+    background: #333333;
+}
+
+.footerPie img{
+    display: block;
+    position: relative;
+    width: 800px;
+    height: 260px;
+    top: 5px;
+    margin: 0px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerCopy{
+    clear: both;
+    list-style: none;
+    width: 1910px;
+    height: -5px;
+    background: #333333;
+}
+
+.footerCopy p {
+    position: relative;
+    top:-5px;
+    margin: 0px auto;
+    color: #ffffff;
+    font-family: lato;
+    font-size: 18px; 
+    text-align: center;    
+}
+
+.footerCopy a {
+    color: #ffffff;
+    text-decoration: none;
+    outline: none;
+}

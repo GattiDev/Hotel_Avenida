@@ -1,0 +1,64 @@
+.caja{
+    width: 100%;
+    height: 1040px;
+    background: #000;
+    
+}
+
+.caja img{
+    position: relative;
+    margin: auto;
+    left: 10%;
+}
+
+.caja p{
+    text-align: center;
+    font-family: Georgia; /*cambio la fuente de la letra*/
+    font-size: 18px; /*tamaño de la letra*/ 
+    color: #fff;
+}
+
+
+/*Seguinos*/
+.redes-seguinos {  
+    position: relative; 
+    top:-18px;
+    clear: both;
+    width: 100%; /*20%*/
+    height: 40px;
+    float: right;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.redes-seguinos ul{
+    list-style: none; /*Acá le saco los puntos de la lista*/
+}
+
+    .redes-seguinos li{
+        float: left; /*Acá voy flotando uno al lado de otro*/
+    }
+
+        .redes-seguinos ul li{
+            display: inline-block; /*lo pongo horinzontal*/
+            text-align: center;
+        }
+
+        .redes-seguinos ul li a {
+            display: block;
+            color: #87868a;
+            font-size: 20px;
+            transition: .5s;
+            padding: 25px;
+        }
+
+        /*.redes-seguinos ul:hover a{
+            filter: blur(2px); */ /*Para que se desenfoque*/ /*
+        }*/
+
+        .redes-seguinos ul li a:hover{
+            color: #fff;
+            filter: none;
+        }

@@ -1,0 +1,312 @@
+/*############################################ Import ############################################*/
+@import url("redesSociales.css");
+
+@import url("menu.css");
+
+@import url("footer.css");
+
+/*############################################ FUENTES ############################################*/
+@font-face{
+    font-family: "lato";
+    src:url("../fonts/Lato-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Lato-Light";
+    src:url("../fonts/Lato-Light.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Lato-Bold";
+    src:url("../fonts/Lato-Bold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*############################################ GENERALES ############################################*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    margin: auto;
+    width: 100%; 
+    min-width: 600px;
+    max-width: 1910px;
+	zoom: 84%;
+}
+
+.contenedor{
+    margin: auto;
+	width: 1910px;
+	height: -525px;
+    /*background: royalblue;*/
+}
+
+.cabecera{
+	height: 522px;
+	background-image: url("../../imag/banner/bannerIndex.jpg"); 
+	background-repeat: no-repeat;
+	background-position: center; 
+}
+
+.cuerpo{
+	height:1605px;
+	padding-left: 260px;
+    padding-right: 260px;
+    /*background-color: red;*/
+}
+
+/*############################################ CAJA 1 ############################################*/
+.caja-1{
+	width: 1390px;
+	height: 680px; 
+	padding-bottom: 90px;
+	/*background: rebeccapurple;*/
+}
+
+/*############################################ Titulo ############################################*/ 
+h1 {
+    height: auto;
+    font-family: "Lato-Light";
+    letter-spacing: 22px; /*dar espacio a las letras*/
+    font-size: 60px; /*Tamaño de la letra*/
+    color: #c48f33;
+    text-align: center; /*centro el texto*/
+    margin-top: 64px;
+    /*background: teal;*/
+}    
+
+/*############################################ Linea Horizontal ############################################*/
+.linea-H{
+    width: 1390px;
+    height: 4px;
+    margin-top: 50px;
+    background: #c48f33;
+}
+
+/*############################################ Imagen ############################################*/
+.img-1{
+    position: relative;
+    width: 495px;
+    height: 495px;
+	margin-top: 60px;
+    float: left;   
+    /*background: hotpink;*/
+}
+
+.img-1 img{
+    width: 490px;
+    height: 490px;
+}
+
+/*############################################ Linea Vertical ############################################*/
+.linea-V{  
+    position: relative;
+    top: 100px;
+    height: 504px;
+    float:left;  
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 2px solid #c48f33;
+    background: #c48f33;
+}
+
+
+/*############################################ Titulo ############################################*/
+.texto-1{
+    position: relative;
+    width: 695px;
+    height: 505px;
+    float: right;
+    top: -512px;
+    margin-top: 100px;
+    /*background: lightseagreen;*/
+}
+
+.texto-a{
+    position: relative;
+    width: 100%;
+    height: auto;
+    /*background:saddlebrown;*/
+}
+
+.texto-a p{
+    text-align: left;
+    font-family: "Lato";
+    font-size: 22px; /*Tamaño de la letra*/
+    color: #4c4c4c;
+    font-weight: bold; /*para poner la letra en negro*/
+    text-indent: 6px; /*sangria primera linea*/
+    /*background: greenyellow;*/
+}
+
+.texto-b{
+    position: relative;
+    width: 100%;
+    height: auto;
+    /*background:slategrey;*/
+}
+
+.texto-b p{
+    text-align: left;
+    font-family: "Lato";
+    font-size: 22px; /*Tamaño de la letra*/
+    color: #4c4c4c;
+    text-indent: 6px; /*sangria primera linea*/
+}
+
+.texto-b  n{
+    font-weight: bold; /*para poner la letra en negro*/
+}
+
+/*############################################ CAJA 2 ############################################*/
+.caja-2 { 
+    display: block;
+    position: absolute;
+    width: 1390px;
+	height: 690px;	
+	margin-top: -835px;
+	margin-left: 260px;
+    padding-bottom: 90px;
+    /*background: green;*/
+}
+
+/*############################################ Linea Horizontal ############################################*/ 
+.linea-H2{
+    display: block;
+    position: relative;
+    width: 1390px;
+    height: 4px;
+    margin-top: 50px;
+    background: #c48f33;
+}
+
+/*############################################ Texto ############################################*/ 
+.texto-2{
+    display:block; 
+    position:relative;
+    width: 695px; 
+    height: 450px;
+    float: left;
+    margin-top: 50px;
+    margin-right: 100px;
+    /*background: lightblue;*/
+}
+
+.texto-2 p{
+    text-align: left;
+    font-family: "Lato";
+    color: #4c4c4c;
+    font-size: 22px; /*Tamaño de la letra*/
+    text-indent: 6px; /*sangria primera linea*/
+}
+
+.texto-2 n{
+    font-family: "Lato";
+    font-weight: bold; /*para poner la letra en negro*/
+    color: #4c4c4c;
+}
+
+/*############################################ Linea Vertical ############################################*/
+.linea-V2{  
+    display: block;
+    position: relative;
+    top: 50px;
+    height: 423px;
+    float: left; 
+    margin-right: 100px;
+    border: 2px solid #c48f33;
+    background: #c48f33;
+    /*background: skyblue;*/
+}
+
+/*############################################ Imagen ############################################*/  
+.img-2{
+    display: block;
+    position: relative;
+    width: 500px;
+    height: 422px;
+    float: right;
+    margin-right: -3px;
+    top: -428px;
+    padding-top: 50px;
+    /*background: royalblue;*/
+}
+
+.img-2 img{
+    display: block;
+    width: 489px;
+    height: 422px;
+} 
+
+/*############################################ Resoluciones ############################################*/
+
+@media screen and (width: 1920px){
+   
+    html, body{
+	    zoom: 100%;
+    }
+	
+}
+
+@media screen and (width: 1680px){
+   
+    html, body{
+	    zoom: 93.3%;
+    }
+	
+}
+
+@media screen and (width: 1600px){
+   
+    html, body{
+	    zoom: 91%;
+    }
+	
+}
+
+@media screen and (width: 1440px){
+   
+    html, body{
+	    zoom: 86.3%;
+    }
+	
+}
+
+@media screen and (width: 1280px){
+   
+    html, body{
+	    zoom: 81.3%;
+    }
+	
+}
+
+@media screen and (width: 1024px){
+   
+    html, body{
+	    zoom: 72.6%;
+    }
+	
+}
+
+@media screen and (width: 832px){
+   
+    html, body{
+	    zoom: 65.3%;
+    }
+	
+}
+
+@media screen and (width: 800px){
+   
+    html, body{
+	    zoom: 53.46%;
+    }
+	
+}

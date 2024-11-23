@@ -1,0 +1,88 @@
+/*############################################ FUENTES ############################################*/
+@font-face{
+    font-family: "lato";
+    src:url("../fonts/Lato-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*############################################ Caja 1 ############################################*/
+.caja1{
+	height: 35px;
+	background: #333333;
+}
+
+/*############################################ Mapa ############################################*/
+.redes-map {
+    clear: both;
+    width: 592px;
+    height: 35px;
+    margin-left: 360px;
+	/*background: firebrick;*/
+    display: flex;
+    align-items: center;
+}
+
+    .redes-map ul{
+        list-style: none; /*Acá le saco los puntos de la lista*/
+    }
+
+        .redes-map ul li{
+            display: inline-block; /*lo pongo horinzontal*/
+            margin: 0 5px;
+            text-align: center;
+        }
+
+            .redes-map ul li {   
+                display: block; 
+                font-family: lato;
+                color: #ffffff;
+                font-size: 14px;
+                transition: .2s;
+                float: left;
+            }
+
+            .redes-map ul a {
+                display: block;
+                margin-left: 7px;
+                margin-top: 5px;
+                font-family: lato;
+                color: #ffffff;
+                font-size: 14px;
+                transition: .2s;
+                float: right;
+            }
+
+/*############################################ Seguinos ############################################*/
+.redes-seguinos {
+	position: relative;
+    width: 592px; 
+    height: 35px;
+	top: -35px;
+    margin-right: 360px;
+    float: right;
+	/*background: forestgreen;*/
+    display: flex;
+    align-items: center;
+}
+
+.redes-seguinos ul{
+    list-style: none; /*Acá le saco los puntos de la lista*/
+    margin-left: 460px;
+}
+
+    .redes-seguinos li{
+        float: right; /*Acá voy flotando uno al lado de otro*/
+    }
+
+        .redes-seguinos ul li a {
+            display: block;
+            color: #87868a;
+            transition: .2s;
+			padding: 10px;
+        }
+
+        .redes-seguinos ul li a:hover{
+            color: #ffffff;
+            filter: none;
+        }

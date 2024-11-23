@@ -1,0 +1,155 @@
+/*############################################ FUENTES ############################################*/
+@font-face{
+    font-family: "lato";
+    src:url("../fonts/Lato-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+nav ul li a::after{
+    display: block;
+    position: relative;
+    top: 32px;
+    content:'';
+    width: 0px;
+    height: 4px;
+    background: #c48f33;
+    transition: width .3s;               
+}
+            
+nav ul li a:hover::after{
+    width: 100%;
+    transition: width .3s;                
+}
+
+.caja2{
+	height: 100px;
+	background: #fff;
+    opacity: 95%;
+}
+
+/*############################################ MENU ############################################*/
+
+/*############################################ Menú Izquierdo ############################################*/
+#menu1{   
+    width: 45%;
+    height: 100px;
+    float: left;
+    /*background-color: palevioletred;*/
+}
+
+#menu1 ul {
+    list-style: none;
+}
+
+#menu1 ul > li {
+    width: 150px;
+    float: left;
+    text-align: center;    
+    position: relative; 
+    padding-top: 35px;
+    left: 360px;
+    padding-right: 110px;
+    padding-bottom: 35px;
+    /*background: greenyellow;*/
+}
+
+#menu1 ul > li > a {
+    font-family: lato;
+    font-size: 25px;
+    float: left;
+    text-decoration: none;
+    color: #333333;
+    /*background: teal;*/
+}
+
+
+/*############################################ Menú Derecho ############################################*/
+#menu2{
+    position: relative;
+    width: 520px;
+    height: 100px;
+    top:-35px;
+    float: right;
+    /*background-color: tomato;*/
+}
+
+#menu2 ul {
+    list-style: none;
+}
+
+/*############################################ Opciones Derecho ############################################*/
+#menu2 ul > li {
+    width: 150px;
+    float: right;
+    text-align: center;   
+    position: relative; 
+    padding-top: 35px;
+    right: 360px;
+    padding-left: 110px;
+    padding-bottom: 35px;  
+    /*background: gold; */
+}
+
+#menu2 ul > li > a {
+    font-family: "lato"; 
+    font-size: 25px; 
+    float: right;
+    text-decoration: none;
+    color: #333333; 
+    /*background: plum;*/
+}
+
+
+/*############################################ Menu Fixed ############################################*/ 
+.menu-fixed { 
+    width: 1910px;
+	height: 100px;
+    z-index: 10;
+	position: fixed;
+    top: 0px;
+	background: #fff;
+    opacity: 95%; /*Juego con la opacidad del menu*/
+}
+
+/*############################################ Menu Left ############################################*/
+.menu-fixed #menu1 ul > li {    
+    width: 150px;
+    float: left;
+    text-align: center;    
+    position: relative; 
+    padding-top: 35px;
+    left: 360px;
+    padding-right: 110px;
+    padding-bottom: 35px;
+    /*background: greenyellow;*/
+}
+
+/*############################################ Menu Right ############################################*/
+.menu-fixed #menu2 ul > li {      
+    width: 150px;
+    float: right;
+    text-align: center;   
+    position: relative; 
+    padding-top: 70px;
+    right: 360px;
+    padding-left: 110px;
+}
+
+/*############################################ Logo ############################################*/
+.menu-fixed .logo img{
+	position: relative;
+    margin-top: 44px;
+}
+
+.logo{
+    margin: auto;
+    width: 151px;
+    height: 80px;
+}
+
+.logo img{
+    position: relative;
+    top:-38px;
+    margin-top: 8px;
+}

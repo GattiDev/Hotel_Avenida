@@ -1,0 +1,383 @@
+/*############################################ Import ############################################*/
+@import url("redesSociales.css");
+
+@import url("menu.css");
+
+@import url("footer.css");
+
+
+/*############################################ FUENTES ############################################*/
+@font-face{
+    font-family: "lato";
+    src:url("../fonts/Lato-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Lato-Light";
+    src:url("../fonts/Lato-Light.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Lato-Bold";
+    src:url("../fonts/Lato-Bold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*############################################ GENERALES ############################################*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    margin: auto;
+    width: 100%; 
+    min-width: 600px;
+    max-width: 1910px;
+	zoom: 84%;
+}
+
+.contenedor{
+    margin: auto;
+	width: 1910px;
+	height: -525px;
+    /*background: royalblue;*/
+}
+
+.cabecera{
+	height: 522px;
+	background-image: url("../../imag/banner/bannerReservas.jpg"); 
+	background-repeat: no-repeat;
+	background-position: center; 
+}
+
+.cuerpo{
+	height:1230px;
+	padding-left: 260px;
+    padding-right: 260px;
+    /*background-color: red;*/
+}
+
+
+/*############################################ CAJA 1 #############################################*/
+.caja-1{
+	width: 1390px;
+	height: 735px; 
+	padding-bottom: 90px;
+	/*background: rebeccapurple;*/
+}
+
+/*############################################ Titulo ############################################*/    
+h1 {
+    height: auto;
+    font-family: "lato-light";
+    letter-spacing: 22px;
+    font-size: 60px; /*Tamaño de la letra*/
+    color: #c48f33;
+    text-align: center; /*centro el texto*/
+    margin-top: 64px;
+    /*background: teal;*/   
+}
+
+/*############################################ Linea Horizontal ############################################*/
+.linea-H{
+    width: 1390px;
+    height: 4px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #c48f33;
+}
+
+/*############################################ Titulo ############################################*/
+section p{
+    text-align: center;
+    font-family: "Lato-Bold";
+    font-size: 31px; /*Tamaño de la letra*/
+    color: #4c4c4c;
+    /*background: greenyellow;*/
+}
+
+/*############################################ Formulario ############################################*/ 
+.user_info{
+    width: 1390px;
+    height: 550px;   
+}
+
+.info_left{
+    width: 467px;
+    height: 185px;
+    float: left;
+    /*background:rosybrown;*/
+}
+
+.info_left label{
+    font-family: "Lato-Bold";
+    font-size: 25px;
+    color: #c48f33;
+}
+
+.info_center{
+    width: 467px;
+    height: 185px;
+    float: left;
+    /*background:saddlebrown;*/
+}
+
+.info_center label{
+    font-family: "Lato-Bold";
+    font-size: 25px;
+    color: #c48f33;
+    margin-left: 10px;
+}
+
+.info_right{
+    float:right;
+    height: 150px;
+    width: 467px;
+    height: auto;
+    margin-right: -35px;
+    /*background:seagreen;*/
+}
+
+.info_right label{
+    font-family: "Lato-Bold";
+    font-size: 25px;
+    color: #c48f33;
+}
+
+.nombre{
+    margin-bottom: 16px; /*Acá le doy la separacion*/
+    width: 430px;
+    height: 35px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    font-family: "lato"; /*cambio la fuente de la letra*/
+    font-size: 20px; /*tamaño de la letra*/ 
+    border: none;
+    box-shadow: 4px 4px 6px 0px #cacacc;  
+}
+
+.email{
+    margin-bottom: 16px; /*Acá le doy la separacion*/
+    width: 430px;
+    height: 35px;
+    margin-bottom: 50px;
+    font-family: "lato"; /*cambio la fuente de la letra*/
+    font-size: 20px; /*tamaño de la letra*/ 
+    border: none;
+    margin-left: 10px;
+    box-shadow: 4px 4px 6px 0px #cacacc;  
+
+}
+
+input[type="text"]{
+    margin-top: 10px;
+}
+
+.empresa{
+    margin-bottom: 16px; /*Acá le doy la separacion*/
+    width: 430px;
+    height: 35px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    font-family: "lato"; /*cambio la fuente de la letra*/
+    font-size: 20px; /*tamaño de la letra*/ 
+    border: none;
+    box-shadow: 4px 4px 6px 0px #cacacc;
+}
+
+.localidad{
+    margin-bottom: 16px; /*Acá le doy la separacion*/
+    width: 430px;
+    height: 35px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    font-family: "lato"; /*cambio la fuente de la letra*/
+    font-size: 20px; /*tamaño de la letra*/ 
+    border: none;
+    box-shadow: 4px 4px 6px 0px #cacacc;  
+    margin-left: 10px;
+}
+
+.telefono{
+    margin-bottom: 16px; /*Acá le doy la separacion*/
+    width: 430px;
+    height: 35px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    font-family: "lato"; /*cambio la fuente de la letra*/
+    font-size: 20px; /*tamaño de la letra*/ 
+    border: none;
+    box-shadow: 4px 4px 6px 0px #cacacc;
+}
+
+.fecha{
+    margin-bottom: 16px; /*Acá le doy la separacion*/
+    width: 430px;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    font-family: "lato"; /*cambio la fuente de la letra*/
+    font-size: 20px; /*tamaño de la letra*/ 
+    border: none;
+    box-shadow: 4px 4px 6px 0px #cacacc;
+
+}
+
+.fechaL{
+    margin-bottom: 16px; /*Acá le doy la separacion*/
+    width: 430px;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-family: "lato"; /*cambio la fuente de la letra*/
+    font-size: 20px; /*tamaño de la letra*/ 
+    border: none;
+    box-shadow: 4px 4px 6px 0px #cacacc;
+    margin-left: 10px;
+}
+
+.provincia{
+    margin-bottom: 16px; /*Acá le doy la separacion*/
+    width: 430px;
+    height: 35px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    font-family: "lato"; /*cambio la fuente de la letra*/
+    font-size: 20px; /*tamaño de la letra*/ 
+    border: none;
+    box-shadow: 4px 4px 6px 0px #cacacc;
+}
+
+/*############################################ Mensaje ############################################*/
+.textarea-msj{
+    position: relative;
+    top: 193px; /*regulo la altura*/
+    width: 1390px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.textarea-msj p{
+    float: left;
+    position: relative;
+    top: 15px; /*regulo la altura*/
+    font-family: "Lato-Bold";
+    font-size: 25px;
+    color: #c48f33;
+}
+
+.textarea-msj textarea{
+    resize: none;
+}
+
+.textarea-msj .mesaje{
+    position: relative;
+    top: -18px;
+    width: 1390px;
+    height: 250px;
+    font-family: "lato"; /*cambio la fuente de la letra*/
+    font-size: 20px; /*tamaño de la letra*/ 
+    border: none;
+    box-shadow: 4px 4px 6px 0px #cacacc;
+}
+
+.enviar{
+    position: relative;
+    top: 650px; 
+    width: 160px;
+    height: 35px; 
+    margin: auto;
+    padding-left: 10px;    
+}
+
+.enviar .boton {
+    font-size: 16px; /*tamaño de la letra*/
+    padding: 5px;
+    border: none;
+    font-family: "lato"; /*cambio la fuente de la letra*/
+    font-size: 20px; /*tamaño de la letra*/ 
+    color: #fff;
+    background: #5b5b5f;
+    box-shadow: 4px 4px 6px 0px #cacacc;
+} 
+
+.recaptcha{
+    position: relative;
+    top: 556px;
+    width: 303px; 
+    padding-top: 15px;
+    margin: auto;
+}
+
+/*############################################ Resoluciones ############################################*/
+
+@media screen and (width: 1920px){
+   
+    html, body{
+	    zoom: 100%;
+    }
+	
+}
+
+@media screen and (width: 1680px){
+   
+    html, body{
+	    zoom: 93.3%;
+    }
+	
+}
+
+@media screen and (width: 1600px){
+   
+    html, body{
+	    zoom: 91%;
+    }
+	
+}
+
+@media screen and (width: 1440px){
+   
+    html, body{
+	    zoom: 86.3%;
+    }
+	
+}
+
+@media screen and (width: 1280px){
+   
+    html, body{
+	    zoom: 81.3%;
+    }
+	
+}
+
+@media screen and (width: 1024px){
+   
+    html, body{
+	    zoom: 72.6%;
+    }
+	
+}
+
+@media screen and (width: 832px){
+   
+    html, body{
+	    zoom: 65.3%;
+    }
+	
+}
+
+@media screen and (width: 800px){
+   
+    html, body{
+	    zoom: 53.46%;
+    }
+	
+}

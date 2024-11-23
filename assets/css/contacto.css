@@ -1,0 +1,176 @@
+/*############################################ Import ############################################*/
+@import url("redesSociales.css");
+
+@import url("menu.css");
+
+@import url("footer.css");
+
+/*############################################ FUENTES ############################################*/
+@font-face{
+    font-family: "lato";
+    src:url("../fonts/Lato-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Lato-Light";
+    src:url("../fonts/Lato-Light.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Lato-Bold";
+    src:url("../fonts/Lato-Bold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*############################################ GENERALES ############################################*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    margin: auto;
+    width: 100%; 
+    min-width: 600px;
+    max-width: 1910px;
+	zoom: 84%;
+}
+
+.contenedor{
+    margin: auto;
+	width: 1910px;
+	height: -525px;
+    /*background: royalblue;*/
+}
+
+.cabecera{
+	height: 522px;
+	background-image: url("../../imag/banner/bannerIndex.jpg"); 
+	background-repeat: no-repeat;
+	background-position: center; 
+}
+
+.cuerpo{
+	height:320px;
+	padding-left: 260px;
+    padding-right: 260px;
+}
+
+
+/*############################################ CAJA 1 ############################################*/
+.caja-1{
+	width: 1390px;
+	height: 500px; 
+	/*background: rebeccapurple;*/
+}
+
+/*############################################ Titulo ############################################*/    
+h1 {
+    height: auto;
+    font-family: "Lato-Light";
+    letter-spacing: 22px; /*dar espacio a las letras*/
+    font-size: 60px; /*Tamaño de la letra*/
+    color: #c48f33;
+    text-align: center; /*centro el texto*/
+    margin-top: 64px;
+    /*background: teal;*/
+}
+
+/*############################################ Linea Horizontal ############################################*/
+.linea-H{
+    width: 1390px;
+    height: 4px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #c48f33;
+}
+
+/*############################################ Texto ############################################*/
+.caja-1 p {  
+    width: 1310px; 
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    font-family: "Lato-Bold";
+    font-size: 31px; /*Tamaño de la letra*/
+    color: #4c4c4c;
+}
+
+/*############################################ Mapa ############################################*/
+.mapa{
+    width: 1910px;
+    height: 700px;
+    margin: auto;
+    margin-bottom: 150px;
+    /*background:teal;*/
+}
+
+/*############################################ Resoluciones ############################################*/
+@media screen and (width: 1920px){
+   
+    html, body{
+	    zoom: 100%;
+    }
+	
+}
+
+@media screen and (width: 1680px){
+   
+    html, body{
+	    zoom: 93.3%;
+    }
+	
+}
+
+@media screen and (width: 1600px){
+   
+    html, body{
+	    zoom: 91%;
+    }
+	
+}
+
+@media screen and (width: 1440px){
+   
+    html, body{
+	    zoom: 86.3%;
+    }
+	
+}
+
+@media screen and (width: 1280px){
+   
+    html, body{
+	    zoom: 81.3%;
+    }
+	
+}
+
+@media screen and (width: 1024px){
+   
+    html, body{
+	    zoom: 72.6%;
+    }
+	
+}
+
+@media screen and (width: 832px){
+   
+    html, body{
+	    zoom: 65.3%;
+    }
+	
+}
+
+@media screen and (width: 800px){
+   
+    html, body{
+	    zoom: 53.46%;
+    }
+	
+}
